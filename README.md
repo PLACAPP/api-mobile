@@ -1,65 +1,27 @@
-Welcome to the AWS CodeStar sample web application
-==================================================
+# Laravel PHP Framework
 
-This sample code helps get you started with a simple PHP Laravel web
-application deployed by AWS Elastic Beanstalk.
+[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
+[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
+[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
-What's Here
------------
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
 
-This sample includes:
+Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
-* README.md - this file
-* .ebextensions/ - this directory contains the PHP configuration file that
-  allows AWS Elastic Beanstalk to deploy your PHP application.  Note that this
-  directory contains a Laravel config file (00laravel.config) that includes a
-  pre-defined Laravel application key.  This application key should be replaced
-  with one you generate (see
-  http://laravel-recipes.com/recipes/283/generating-a-new-application-key) for
-  details.
-* index.php - this file contains the sample application
+## Official Documentation
 
+Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 
-Getting Started
----------------
+## Contributing
 
-These directions assume you want to develop on your local computer, and not
-from the Amazon EC2 instance itself. If you're on the Amazon EC2 instance, the
-virtual environment is already set up for you, and you can start working on the
-code.
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
 
-To work on the sample code, you'll need to clone your project's repository to your
-local computer. If you haven't, do that first. You can find instructions in the
-AWS CodeStar user guide.
+## Security Vulnerabilities
 
-1. Install PHP.  See http://php.net/manual/en/install.php for details.
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
-2. Install composer.  See https://getcomposer.org/doc/00-intro.md for
-   details.
+## License
 
-3. Install your dependencies:
-
-        $ php composer.phar install
-
-4. Start the PHP development server:
-
-        $ php artisan serve
-
-5. Open http://127.0.0.1:8000/ in a web browser to view your application.
-
-What Do I Do Next?
-------------------
-
-Once you have a virtual environment running, you can start making changes to
-the sample PHP web application. We suggest making a small change to index.php
-first, so you can see how changes pushed to your project's repository are automatically
-picked up by your project pipeline and deployed to the Amazon EC2 instance by AWS Elastic
-Beanstalk. (You can watch the pipeline progress on your project dashboard.) Once you've
-seen how that works, start developing your own code, and have fun!
-
-Learn more about AWS CodeStar by reading the [user guide][User Guide].  Ask
-questions or make suggestions on our [forum][Forum].
-
-[User Guide]: http://docs.aws.amazon.com/codestar/latest/userguide/welcome.html
-
-[Forum]: https://forums.aws.amazon.com/forum.jspa?forumID=248
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).

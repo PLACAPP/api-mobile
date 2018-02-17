@@ -1,0 +1,173 @@
+[01-Oct-2016 01:05:36 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class App\Http\Kernel does not exist' in /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+Stack trace:
+#0 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Container/Container.php(734): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->build('App\\Http\\Kernel', Array)
+#2 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(697): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#3 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Container/Container.php(230): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#4 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Container\Container->Illuminate\Container\{closure}(Objec in /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 734
+[01-Oct-2016 01:05:38 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class App\Http\Kernel does not exist' in /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+Stack trace:
+#0 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Container/Container.php(734): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->build('App\\Http\\Kernel', Array)
+#2 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(697): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#3 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Container/Container.php(230): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#4 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Container\Container->Illuminate\Container\{closure}(Objec in /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 734
+[01-Oct-2016 01:05:39 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class App\Http\Kernel does not exist' in /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+Stack trace:
+#0 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Container/Container.php(734): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->build('App\\Http\\Kernel', Array)
+#2 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(697): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#3 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Container/Container.php(230): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#4 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Container\Container->Illuminate\Container\{closure}(Objec in /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 734
+[30-Sep-2016 20:34:06 America/Bogota] PHP Fatal error:  Class 'Form' not found in /home/plac/public_html/api/storage/framework/views/5997bd413f2422508bd62f2a8d5232430ceba076.php on line 27
+[30-Sep-2016 20:35:56 America/Bogota] PHP Fatal error:  Class 'Form' not found in /home/plac/public_html/api/storage/framework/views/5997bd413f2422508bd62f2a8d5232430ceba076.php on line 27
+[02-Oct-2016 11:32:28 America/Bogota] PHP Fatal error:  Class 'Plac\Http\Controllers\Client' not found in /home/plac/public_html/api/app/Http/Controllers/NotificationsController.php on line 201
+[02-Oct-2016 18:32:30 America/Bogota] PHP Fatal error:  Class 'Plac\Http\Controllers\DB' not found in /home/plac/public_html/api/app/Http/Controllers/NotificationsController.php on line 212
+[02-Oct-2016 18:39:27 America/Bogota] PHP Warning:  Uncaught exception 'ErrorException' with message 'Object of class stdClass could not be converted to string' in /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Database/Connection.php:335
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(4096, 'Object of class...', '/home/plac/publ...', 335, Array)
+#1 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(335): PDOStatement->execute(Array)
+#2 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(722): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select `device_...', Array)
+#3 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(685): Illuminate\Database\Connection->runQueryCallback('select `device_...', Array, Object(Closure))
+#4 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(34 in /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 335
+[02-Oct-2016 18:40:15 America/Bogota] PHP Warning:  Uncaught exception 'ErrorException' with message 'Object of class stdClass could not be converted to string' in /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Database/Connection.php:335
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(4096, 'Object of class...', '/home/plac/publ...', 335, Array)
+#1 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(335): PDOStatement->execute(Array)
+#2 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(722): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select `device_...', Array)
+#3 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(685): Illuminate\Database\Connection->runQueryCallback('select `device_...', Array, Object(Closure))
+#4 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(34 in /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 335
+[02-Oct-2016 18:41:12 America/Bogota] PHP Warning:  Uncaught exception 'ErrorException' with message 'Object of class stdClass could not be converted to string' in /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Database/Connection.php:335
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(4096, 'Object of class...', '/home/plac/publ...', 335, Array)
+#1 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(335): PDOStatement->execute(Array)
+#2 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(722): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select `device_...', Array)
+#3 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(685): Illuminate\Database\Connection->runQueryCallback('select `device_...', Array, Object(Closure))
+#4 /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Database/Connection.php(34 in /home/plac/public_html/api/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 335
+[03-Oct-2016 07:24:16 America/Bogota] PHP Fatal error:  Call to undefined function Plac\Http\Controllers\compressImage() in /home/plac/public_html/api/app/Http/Controllers/ProfileController.php on line 223
+[05-Oct-2016 07:23:30 America/Bogota] PHP Fatal error:  Call to a member function getClientOriginalExtension() on a non-object in /home/plac/public_html/api/app/Http/Controllers/ProfileController.php on line 74
+[05-Oct-2016 17:39:32 America/Bogota] PHP Fatal error:  Class 'Plac\Http\Controllers\Image' not found in /home/plac/public_html/api/app/Http/Controllers/ReportLostPetController.php on line 68
+[05-Oct-2016 17:46:48 America/Bogota] PHP Fatal error:  Class 'Plac\Http\Controllers\Image' not found in /home/plac/public_html/api/app/Http/Controllers/ReportLostPetController.php on line 68
+[05-Oct-2016 17:53:11 America/Bogota] PHP Fatal error:  Class 'Plac\Http\Controllers\Image' not found in /home/plac/public_html/api/app/Http/Controllers/ReportLostPetController.php on line 68
+[05-Oct-2016 18:04:14 America/Bogota] PHP Fatal error:  Class 'Plac\Http\Controllers\Image' not found in /home/plac/public_html/api/app/Http/Controllers/ReportLostPetController.php on line 68
+[01-Nov-2016 16:46:16 America/Bogota] PHP Fatal error:  Call to a member function delete() on a non-object in /home/plac/public_html/api/app/Http/Controllers/PostController.php on line 181
+[01-Nov-2016 16:46:21 America/Bogota] PHP Fatal error:  Call to a member function delete() on a non-object in /home/plac/public_html/api/app/Http/Controllers/PostController.php on line 181
+[08-Nov-2016 18:31:35 America/Bogota] PHP Fatal error:  Class 'Plac\Http\Controllers\Input' not found in /home/plac/public_html/api/app/Http/Controllers/ReactNativeController.php on line 89
+[09-Nov-2016 13:08:27 America/Bogota] PHP Fatal error:  Cannot use object of type Illuminate\Http\UploadedFile as array in /home/plac/public_html/api/app/Http/Controllers/ReactNativeController.php on line 96
+[09-Nov-2016 15:44:21 America/Bogota] PHP Fatal error:  Cannot use object of type Illuminate\Http\UploadedFile as array in /home/plac/public_html/api/app/Http/Controllers/ReactNativeController.php on line 94
+[09-Nov-2016 15:54:29 America/Bogota] PHP Fatal error:  Cannot use object of type Illuminate\Http\UploadedFile as array in /home/plac/public_html/api/app/Http/Controllers/ReactNativeController.php on line 93
+[09-Nov-2016 15:54:48 America/Bogota] PHP Fatal error:  Cannot use object of type Illuminate\Http\UploadedFile as array in /home/plac/public_html/api/app/Http/Controllers/ReactNativeController.php on line 93
+[09-Nov-2016 15:54:53 America/Bogota] PHP Fatal error:  Cannot use object of type Illuminate\Http\UploadedFile as array in /home/plac/public_html/api/app/Http/Controllers/ReactNativeController.php on line 93
+[17-Nov-2016 16:07:12 America/Bogota] PHP Fatal error:  Cannot use object of type stdClass as array in /home/plac/public_html/api/app/Http/Controllers/ProfileController.php on line 286
+[17-Nov-2016 16:08:03 America/Bogota] PHP Fatal error:  Cannot use object of type stdClass as array in /home/plac/public_html/api/app/Http/Controllers/ProfileController.php on line 286
+[17-Nov-2016 16:12:26 America/Bogota] PHP Fatal error:  Cannot use object of type stdClass as array in /home/plac/public_html/api/app/Http/Controllers/ProfileController.php on line 285
+[17-Nov-2016 16:12:40 America/Bogota] PHP Fatal error:  Cannot use object of type stdClass as array in /home/plac/public_html/api/app/Http/Controllers/ProfileController.php on line 285
+[20-Nov-2016 17:11:48 America/Bogota] PHP Parse error:  syntax error, unexpected '}' in /home/plac/public_html/api/app/Http/Controllers/PlacUserController.php on line 428
+[06-Dec-2016 16:23:14 America/Bogota] PHP Fatal error:  Using $this when not in object context in /home/plac/public_html/api/app/Http/Controllers/InstallationController.php on line 34
+[06-Dec-2016 16:30:02 America/Bogota] PHP Fatal error:  Using $this when not in object context in /home/plac/public_html/api/app/Http/Controllers/InstallationController.php on line 34
+[07-Dec-2016 10:56:33 America/Bogota] PHP Fatal error:  Class 'Plac\Http\Controllers\Plac\Profile' not found in /home/plac/public_html/api/app/Http/Controllers/ProfileController.php on line 285
+[07-Dec-2016 11:13:11 America/Bogota] PHP Fatal error:  Class 'Plac\Http\Controllers\Plac\Profile' not found in /home/plac/public_html/api/app/Http/Controllers/ProfileController.php on line 285
+[07-Dec-2016 11:16:45 America/Bogota] PHP Fatal error:  Class 'Plac\Http\Controllers\Plac\Profile' not found in /home/plac/public_html/api/app/Http/Controllers/ProfileController.php on line 285
+[07-Dec-2016 11:20:58 America/Bogota] PHP Fatal error:  Class 'Plac\Http\Controllers\Plac\Profile' not found in /home/plac/public_html/api/app/Http/Controllers/ProfileController.php on line 285
+[20-Dec-2016 15:59:14 America/Bogota] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ';' in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 80
+[20-Dec-2016 20:36:52 America/Bogota] PHP Fatal error:  Call to a member function placeLocations() on a non-object in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 79
+[20-Dec-2016 20:54:34 America/Bogota] PHP Fatal error:  Cannot use object of type stdClass as array in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 104
+[20-Dec-2016 20:57:28 America/Bogota] PHP Fatal error:  Call to a member function toArray() on a non-object in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 88
+[20-Dec-2016 20:58:10 America/Bogota] PHP Fatal error:  Cannot use object of type stdClass as array in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 104
+[20-Dec-2016 21:00:16 America/Bogota] PHP Fatal error:  Cannot use object of type stdClass as array in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 105
+[22-Dec-2016 12:48:09 America/Bogota] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 74
+[22-Dec-2016 20:54:53 America/Bogota] PHP Parse error:  syntax error, unexpected 'cities' (T_STRING) in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 82
+[22-Dec-2016 20:55:04 America/Bogota] PHP Parse error:  syntax error, unexpected 'cities' (T_STRING) in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 82
+[22-Dec-2016 20:55:14 America/Bogota] PHP Parse error:  syntax error, unexpected 'cities' (T_STRING) in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 82
+[22-Dec-2016 20:55:18 America/Bogota] PHP Parse error:  syntax error, unexpected 'cities' (T_STRING) in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 82
+[22-Dec-2016 20:55:40 America/Bogota] PHP Parse error:  syntax error, unexpected ';' in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 73
+[22-Dec-2016 20:55:44 America/Bogota] PHP Parse error:  syntax error, unexpected ';' in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 73
+[22-Dec-2016 20:56:10 America/Bogota] PHP Parse error:  syntax error, unexpected ';' in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 73
+[22-Dec-2016 20:56:34 America/Bogota] PHP Parse error:  syntax error, unexpected ';' in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 73
+[29-Dec-2016 17:16:50 America/Bogota] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/plac/public_html/api/app/City.php on line 3
+[29-Dec-2016 17:17:29 America/Bogota] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/plac/public_html/api/app/City.php on line 3
+[03-Jan-2017 12:42:30 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 126353380 bytes) in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 164
+[03-Jan-2017 12:42:36 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 126353380 bytes) in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 164
+[03-Jan-2017 12:43:43 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 126353391 bytes) in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 162
+[03-Jan-2017 12:43:47 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 126353391 bytes) in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 162
+[03-Jan-2017 12:43:50 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 126353391 bytes) in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 162
+[03-Jan-2017 12:44:17 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 126353391 bytes) in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 162
+[03-Jan-2017 12:45:00 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 126091237 bytes) in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 162
+[03-Jan-2017 12:45:12 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 126091237 bytes) in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 162
+[03-Jan-2017 12:45:41 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 126353391 bytes) in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 162
+[03-Jan-2017 12:49:10 America/Bogota] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 126615547 bytes) in /home/plac/public_html/api/app/Http/Controllers/PlaceController.php on line 163
+[02-Mar-2017 17:15:22 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:15:59 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:16:05 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:16:15 America/Bogota] PHP Fatal error:  Class 'Plac\Product_Categories' not found in /home/plac/public_html/api/app/Http/Controllers/StoreController.php on line 494
+[02-Mar-2017 17:16:15 America/Bogota] PHP Fatal error:  Class 'Plac\Product' not found in /home/plac/public_html/api/app/Http/Controllers/StoreController.php on line 26
+[02-Mar-2017 17:16:57 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:20:49 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:21:13 America/Bogota] PHP Fatal error:  Class 'Plac\Product' not found in /home/plac/public_html/api/app/Http/Controllers/StoreController.php on line 26
+[02-Mar-2017 17:21:14 America/Bogota] PHP Fatal error:  Class 'Plac\Product_Categories' not found in /home/plac/public_html/api/app/Http/Controllers/StoreController.php on line 494
+[02-Mar-2017 17:23:01 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:25:05 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:29:13 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:30:44 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:31:53 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:31:57 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:32:17 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:32:23 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:34:42 America/Bogota] PHP Fatal error:  Class 'Plac\Product_Categories' not found in /home/plac/public_html/api/app/Http/Controllers/StoreController.php on line 494
+[02-Mar-2017 17:34:42 America/Bogota] PHP Fatal error:  Class 'Plac\Product' not found in /home/plac/public_html/api/app/Http/Controllers/StoreController.php on line 26
+[02-Mar-2017 17:34:44 America/Bogota] PHP Fatal error:  Class 'Plac\Product' not found in /home/plac/public_html/api/app/Http/Controllers/StoreController.php on line 26
+[02-Mar-2017 17:34:44 America/Bogota] PHP Fatal error:  Class 'Plac\Product_Categories' not found in /home/plac/public_html/api/app/Http/Controllers/StoreController.php on line 494
+[02-Mar-2017 17:36:34 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:36:59 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:37:04 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:37:58 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:38:44 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:38:58 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:39:57 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:40:03 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:57:39 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:57:40 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 17:59:10 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 18:02:11 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 18:04:03 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 18:06:13 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 18:18:58 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 18:24:47 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 18:24:51 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 18:26:11 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 18:26:58 America/Bogota] PHP Fatal error:  Class 'Plac\Product' not found in /home/plac/public_html/api/app/Http/Controllers/StoreController.php on line 26
+[02-Mar-2017 18:26:58 America/Bogota] PHP Fatal error:  Class 'Plac\Product_Categories' not found in /home/plac/public_html/api/app/Http/Controllers/StoreController.php on line 494
+[02-Mar-2017 18:33:24 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 18:39:09 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 18:39:57 America/Bogota] PHP Fatal error:  Class 'Plac\Product' not found in /home/plac/public_html/api/app/Http/Controllers/StoreController.php on line 26
+[02-Mar-2017 18:39:57 America/Bogota] PHP Fatal error:  Class 'Plac\Product_Categories' not found in /home/plac/public_html/api/app/Http/Controllers/StoreController.php on line 494
+[02-Mar-2017 18:40:18 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 18:41:02 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 18:44:38 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 18:44:49 America/Bogota] PHP Fatal error:  Class 'Plac\Product' not found in /home/plac/public_html/api/app/Http/Controllers/StoreController.php on line 26
+[02-Mar-2017 18:44:50 America/Bogota] PHP Fatal error:  Class 'Plac\Product_Categories' not found in /home/plac/public_html/api/app/Http/Controllers/StoreController.php on line 494
+[02-Mar-2017 18:50:05 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 18:51:00 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 18:53:36 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 18:53:38 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 18:58:36 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 19:00:10 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 19:02:06 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 19:02:19 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 19:02:45 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 19:19:10 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 19:20:16 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 19:20:40 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 19:21:16 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 19:23:09 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[02-Mar-2017 19:33:19 America/Bogota] PHP Fatal error:  Class 'Plac\Advertisements' not found in /home/plac/public_html/api/app/Http/Controllers/AdvertisementsUsersController.php on line 20
+[03-Mar-2017 12:48:08 America/Bogota] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/plac/public_html/api/app/Http/Controllers/ProfileController.php on line 137
+[06-Mar-2017 12:07:08 America/Bogota] PHP Fatal error:  Cannot use object of type stdClass as array in /home/plac/public_html/api/app/Http/Controllers/FollowersController.php on line 136
+[06-Mar-2017 12:07:09 America/Bogota] PHP Fatal error:  Cannot use object of type stdClass as array in /home/plac/public_html/api/app/Http/Controllers/FollowersController.php on line 136
+[08-Mar-2017 13:29:15 America/Bogota] PHP Fatal error:  Class 'Plac\Http\Controllers\App' not found in /home/plac/public_html/api/app/Http/Controllers/NotificationsController.php on line 127
+[08-Mar-2017 13:30:27 America/Bogota] PHP Fatal error:  Class 'Plac\Http\Controllers\App' not found in /home/plac/public_html/api/app/Http/Controllers/NotificationsController.php on line 127
+[08-Mar-2017 19:14:11 America/Bogota] PHP Parse error:  syntax error, unexpected end of file in /home/plac/public_html/api/app/Http/Controllers/ProfileController.php on line 377
+[08-Mar-2017 19:21:58 America/Bogota] PHP Parse error:  syntax error, unexpected end of file in /home/plac/public_html/api/app/Http/Controllers/ProfileController.php on line 377
+[08-Mar-2017 19:36:07 America/Bogota] PHP Parse error:  syntax error, unexpected end of file in /home/plac/public_html/api/app/Http/Controllers/ProfileController.php on line 135
+[08-Mar-2017 19:50:10 America/Bogota] PHP Parse error:  syntax error, unexpected end of file in /home/plac/public_html/api/app/Http/Controllers/ProfileController.php on line 135
+[09-Mar-2017 12:54:30 America/Bogota] PHP Parse error:  syntax error, unexpected end of file in /home/plac/public_html/api/app/Http/Controllers/StoreController.php on line 205
